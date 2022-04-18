@@ -1,0 +1,65 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
+.main-show{
+  width: 800px;
+  padding: 20px;
+  margin: auto;
+}
+.controls{
+  margin: 00px 00px 30px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.sortby, .sortorder{
+  margin: 5px;
+}
+td{
+  padding:10px;
+  border: 1px solid black;
+  font-size: 13px;
+}
+th{
+  font-size: 13px;
+}
+.togglebtn{
+  margin: 20px;
+  padding: 10px;
+}
+.App{
+text-align: center;;
+}
+.addstudent{
+  border: 1px solid black;
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+.addstudent > div{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+select , .submit{
+  padding: 2px;
+  width: 100%;
+}
+input{
+  padding: 4px;
+}
+.male, .female{
+  margin: 10px;
+}
+.error{
+  color: red;
+  font-weight: bold;
+}
+.sort{
+  padding: 0px 10px;
+  margin: 0px 20px;
+}
